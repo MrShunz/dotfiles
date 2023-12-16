@@ -1,0 +1,7 @@
+*~
+*.swo
+*.swp
+*.tmp
+*.orig
+
+.vim/plugged
