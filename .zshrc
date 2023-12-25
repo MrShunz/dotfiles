@@ -21,7 +21,7 @@ setopt hist_verify
 alias ctags="ctags -R --c++-kinds=+p --fields=+iaS --extra=+qf --exclude=build --exclude='.git*' --exclude=CMakeLists.txt --append -f .tags"
 alias ptags="\ctags -R --fields=+l --languages=python --python-kinds=-iv --exclude='.git*' --append -f .tags"
 alias phptags="\ctags -R --totals=yes --tag-relative=yes --PHP-kinds=+cf --exclude='.git*' --exclude='*.js' --append -f .tags"
-alias ls='exa'
+alias ls='eza'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias cat='bat --style=auto'
 alias pcat='bat --style=plain'
