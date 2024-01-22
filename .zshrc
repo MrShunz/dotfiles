@@ -23,7 +23,7 @@ alias ptags="\ctags -R --fields=+l --languages=python --python-kinds=-iv --exclu
 alias phptags="\ctags -R --totals=yes --tag-relative=yes --PHP-kinds=+cf --exclude='.git*' --exclude='*.js' --append -f .tags"
 alias ls='eza'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
-alias cat='bat --style=auto'
+alias cat='bat --style=auto --theme="Solarized (dark)"'
 alias pcat='bat --style=plain'
 alias find='fd -s'
 alias grep='rg'

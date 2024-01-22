@@ -1,27 +1,10 @@
 " Start with plugins
 call plug#begin('~/.vim/plugged')
 
-" git
-Plug 'mhinz/vim-signify'
-
-" Router configs
-Plug 'momota/cisco.vim'
-Plug 'momota/junos.vim'
-
-
 " Themes
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'rakr/vim-one'
-
-" C/C++
-Plug 'bfrg/vim-cpp-modern'
-Plug 'vhdirk/vim-cmake'
-
-
-" PHP
-Plug 'jwalton512/vim-blade'
-
+Plug 'altercation/vim-colors-solarized'
 
 " Other plugs
 Plug 'ap/vim-buftabline'
@@ -31,7 +14,7 @@ call plug#end()
 
 " Colors
 syntax on
-colorscheme one
+colorscheme solarized
 set background=light
 set cursorline
 
@@ -74,7 +57,7 @@ autocmd VimResized * wincmd =
 " Status bar
 set laststatus=2
 let g:airline_powerline_fonts=1
-let g:airline_theme='one'
+let g:airline_theme='solarized'
 
 
 " Formatting
