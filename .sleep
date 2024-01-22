@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Sleepwatcher (Homebrew package) script that runs on sleep.
+# See also: ~/.sleep, ~/.wakeup, ~/.sleepwatcher.log
+
+NETWORK=$(which networksetup)
+BLUEUTIL=$(which blueutil)
+
+${BLUEUTIL} --power off
+${NETWORK} -setairportpower en0 off
+echo "$(date -Iseconds) -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: $(${BLUEUTIL} --power), Wi-Fi status: $(${NETWORK} -getairportpower en0)" >> ~/.sleepwatcher.log
