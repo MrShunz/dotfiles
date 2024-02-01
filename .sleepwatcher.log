@@ -1,1 +1,19 @@
 # Sleepwatcher activity log. See also ~/.wakeup and ~/.sleep scripts.
+2024-01-23T21:10:55+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-01-25T07:41:27+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
+2024-01-25T07:45:27+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-01-25T07:45:28+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
+2024-01-25T07:45:30+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-01-29T21:22:02+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
+2024-01-29T21:29:41+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-01-29T21:30:03+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
+2024-01-29T22:12:59+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-01-29T22:54:06+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
+2024-01-29T23:02:28+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-01-31T12:18:02+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
+2024-01-31T12:21:05+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-01-31T18:14:51+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
+2024-01-31T18:26:54+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-01-31T19:02:29+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
+2024-01-31T19:03:05+01:00 -- Sleep event detected. Disabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): Off
+2024-02-01T10:30:48+01:00 -- Wake event detected. Enabled bluetooth and wifi. Bluetooth status: , Wi-Fi status: Wi-Fi Power (en0): On
