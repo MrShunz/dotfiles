@@ -1,12 +1,6 @@
 # No flow control if interactive
 [[ $- == *i* ]] && $(whence -f stty) -ixon
 
-NEWLINE=$'\n'
-PROMPT="{%F{128}%D - %T%f} : [%F{green}%1~]${NEWLINE}%F{cyan}%n@%F{yellow}%m%f %# "
-
-# Word boundaries
-WORDCHARS=''
-
 # Prefer Homebrew installed packages
 export PATH=/opt/homebrew/opt/whois/bin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 
