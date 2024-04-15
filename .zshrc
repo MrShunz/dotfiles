@@ -16,17 +16,18 @@ setopt hist_verify
 
 # Setup Homebrew autocompletion
 FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
 # Disable dev hints
 export HOMEBREW_NO_ENV_HINTS=1
 
 # GPG for git
 export GPG_TTY=$(tty)
 
-# At Last, load autocompletion
-autoload -Uz compinit && compinit
-
 # iTerm2 Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Aliases
 alias ls='ls -hsFG'
+#
+# At Last, load autocompletion
+autoload -Uz compinit && compinit
