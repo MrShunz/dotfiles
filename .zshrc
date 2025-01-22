@@ -24,7 +24,7 @@ export HOMEBREW_NO_ENV_HINTS=1
 export GPG_TTY=$(tty)
 
 # Use vscode as text editor
-export EDITOR="code -w"
+export EDITOR="code --wait"
 
 # iTerm2 Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

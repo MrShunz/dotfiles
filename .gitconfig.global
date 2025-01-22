@@ -1,0 +1,25 @@
+[user]
+    name = Daniele Santi
+    email = daniele@santi.vr.it
+    signingkey = 19A73328
+[init]
+    defaultBranch = main
+[gpg]
+    program = /opt/homebrew/bin/gpg
+[commit]
+    gpgsign = true
+[fetch]
+    prune = true
+[pull]
+    rebase = false
+    ff-only = true
+[core]
+  editor = code --wait
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
