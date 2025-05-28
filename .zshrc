@@ -31,6 +31,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Aliases
 alias ls='ls -hsFG'
+alias tmux='tmux -CC'
 #
 # At Last, load autocompletion
 autoload -Uz compinit && compinit
