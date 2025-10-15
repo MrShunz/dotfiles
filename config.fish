@@ -10,9 +10,9 @@ end
 
 # Aliases as functions
 function ls
-    ls -hsFG $argv
+    command ls -hsFG $argv
 end
 
 function tmux
-    tmux -u -CC $argv
+    command tmux -u -CC $argv
 end
