@@ -6,13 +6,17 @@ if status is-interactive
     if test -e $HOME/.iterm2_shell_integration.fish
         source $HOME/.iterm2_shell_integration.fish
     end
-end
 
 # Aliases as functions
-function ls
-    command ls -hsFG $argv
-end
+    function ls
+        command ls -hsFG $argv
+    end
 
-function tmux
-    command tmux -u -CC $argv
+    function tmux
+        command tmux -u -CC $argv
+    end
+
+    function patch
+        command gpatch
+    end
 end
