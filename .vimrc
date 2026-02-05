@@ -4,7 +4,8 @@ call plug#begin('~/.vim/plugged')
 " Themes
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'altercation/vim-colors-solarized'
+Plug 'rktjmp/lush.nvim'
+Plug 'mcchrish/zenbones.nvim'
 
 " Other plugs
 Plug 'ap/vim-buftabline'
@@ -14,8 +15,8 @@ call plug#end()
 
 " Colors
 syntax on
-colorscheme solarized
 set background=light
+colorscheme zenbones
 set cursorline
 
 
