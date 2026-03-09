@@ -24,3 +24,7 @@ end
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
+
+# SSH Manager
+source ~/.config/ssh-manager/config
+source "$SSH_MANAGER_PROJECT_PATH/scripts/ssh-manager.fish"
