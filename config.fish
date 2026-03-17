@@ -12,10 +12,6 @@ if status is-interactive
         command ls -hsFG $argv
     end
 
-    function tmux
-        command tmux -u -CC $argv
-    end
-
     function patch
         command gpatch
     end
