@@ -20,7 +20,15 @@ Host Containers-01
     HostName 217.61.242.24
     Port 10322
     User daniele
+Host Netflow-01
+    HostName 217.61.242.24
+    Port 10822
+    User daniele
 Host Services-01
     HostName services-01.it.pda.vsx.as214443.net
     User root
+Host VoIPMonitor-01
+    HostName 217.61.242.28
+    Port 10322
+    User daniele
 # --- END SSH-MANAGER MANAGED BLOCK ---
