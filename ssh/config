@@ -27,6 +27,9 @@ Host Netflow-01
 Host Services-01
     HostName services-01.it.pda.vsx.as214443.net
     User root
+Host Switch-01
+    HostName switch.bebyte.it
+    User root
 Host VoIPMonitor-01
     HostName 217.61.242.28
     Port 10322
