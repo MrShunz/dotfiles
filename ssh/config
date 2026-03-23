@@ -6,3 +6,21 @@ Host *
   IdentityFile ~/.ssh/id_ed25519
   IdentityFile ~/.ssh/id_rsa
 
+# --- BEGIN SSH-MANAGER MANAGED BLOCK ---
+# Do not edit this block manually.
+# Managed by ssh-manager.
+
+Host ACS-01
+    HostName bb-acs-01.bebyte.it
+    User root
+Host Centrali-01
+    HostName centrali-01.host.xelerity.it
+    User root
+Host Containers-01
+    HostName 217.61.242.24
+    Port 10322
+    User daniele
+Host Services-01
+    HostName services-01.it.pda.vsx.as214443.net
+    User root
+# --- END SSH-MANAGER MANAGED BLOCK ---
