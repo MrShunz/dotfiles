@@ -20,6 +20,13 @@ Host Containers-01
     HostName 217.61.242.24
     Port 10322
     User daniele
+Host DNS-01
+    HostName dns-recursive-01.xelerity.it
+    Port 10022
+    User daniele
+Host DNS-02
+    HostName bb-recursive-dns01.bebyte.it
+    User root
 Host Netflow-01
     HostName 217.61.242.24
     Port 10822
