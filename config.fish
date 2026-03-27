@@ -24,3 +24,7 @@ source ~/.orbstack/shell/init2.fish 2>/dev/null || :
 # SSH Manager
 source ~/.config/ssh-manager/config
 source "$SSH_MANAGER_PROJECT_PATH/scripts/ssh-manager.fish"
+
+# CLI Password Manager
+source ~/.config/cli-pm/config.fish
+source "$CLI_PM_PROJECT_PATH/scripts/pm.fish"
