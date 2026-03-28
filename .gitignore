@@ -1,4 +1,5 @@
 *~
+*.old
 *.swo
 *.swp
 *.tmp
@@ -6,3 +7,4 @@
 
 .vim/plugged
 .vim/.netrwhist
+.vim/plugin

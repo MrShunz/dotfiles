@@ -7,8 +7,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'rktjmp/lush.nvim'
 Plug 'mcchrish/zenbones.nvim'
 
-" Other plugs
-Plug 'ap/vim-buftabline'
+" Other
+Plug 'tpope/vim-surround'
+Plug 'https://gist.github.com/PeterRincker/582ea9be24a69e6dd8e237eb877b8978', { 'dir': '~/.vim/plugin' }
 
 call plug#end()
 
@@ -25,7 +26,7 @@ set nocompatible                " don't like vi ;)
 set modeline                    " load filetype from file comment, if present
 set fileformats=unix            " who uses DOS format? ;)
 set showcmd                     " display commands in the bottom right
-set noshowmode
+set noshowmode                  " airline shows mode; avoid duplicate in command line
 set noautowrite
 set hidden                      " Don't close buffers - switch buffers w/o save
 
@@ -33,12 +34,9 @@ set hidden                      " Don't close buffers - switch buffers w/o save
 " Highlight and Remove unwanted whitespace
 autocmd   Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 highlight ExtraWhitespace ctermbg=red guibg=#aa0000
-autocmd   BufWritePre * %s/\s\+$//e
 
 
 " Visuals
-set ttyfast
-set lazyredraw
 set t_vb=                      " no bell at all
 set noerrorbells               " no bell at all
 set novisualbell               " no bell at all
@@ -57,13 +55,12 @@ autocmd VimResized * wincmd =
 
 " Status bar
 set laststatus=2
-let g:airline_powerline_fonts=1
-let g:airline_theme='solarized'
+let g:airline_powerline_fonts=0
+let g:airline_theme='minimalist'
 
 
 " Formatting
 set autoindent
-set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -145,16 +142,8 @@ nnoremap <expr> , getcharsearch().forward ? ',' : ';'
 onoremap ge :execute "normal! " . v:count1 . "ge<space>"<cr>
 
 
-" Automatically CD into open file directory
-autocmd BufEnter * silent! lcd %:p:h
-
-
 " Better git commit messages
 autocmd Filetype gitcommit setlocal spell textwidth=50 colorcolumn=+1
-
-
-" Set path to calling directory + subdirectories
-set path=$PWD/**
 
 
 " C/C++ Related
