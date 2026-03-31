@@ -13,6 +13,10 @@ Host *
 Host ACS-01
     HostName bb-acs-01.bebyte.it
     User root
+Host CDR-Mediator
+    HostName iris.bebyte.it
+    Port 10122
+    User daniele
 Host Centrali-01
     HostName centrali-01.host.xelerity.it
     User root
@@ -26,6 +30,9 @@ Host DNS-01
     User daniele
 Host DNS-02
     HostName bb-recursive-dns01.bebyte.it
+    User root
+Host IRIS
+    HostName iris.bebyte.it
     User root
 Host Netflow-01
     HostName 217.61.242.24
