@@ -38,6 +38,9 @@ Host Netflow-01
     HostName 217.61.242.24
     Port 10822
     User daniele
+Host NextCloud
+    HostName nextcloud.bebyte.it
+    User daniele
 Host Services-01
     HostName services-01.it.pda.vsx.as214443.net
     User root
