@@ -34,6 +34,9 @@ Host DNS-02
 Host IRIS
     HostName iris.bebyte.it
     User root
+Host Monitor-01
+    HostName bb-mon-01.bebyte.it
+    User root
 Host Netflow-01
     HostName 217.61.242.24
     Port 10822
