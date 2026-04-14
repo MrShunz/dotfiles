@@ -44,6 +44,9 @@ Host Netflow-01
 Host NextCloud
     HostName nextcloud.bebyte.it
     User daniele
+Host SDWAN-01
+    HostName sdwan-01.e-3-0.it.pda.vsx.as214443.net
+    User root
 Host Services-01
     HostName services-01.it.pda.vsx.as214443.net
     User root
