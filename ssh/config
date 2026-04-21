@@ -17,6 +17,9 @@ Host CDR-Mediator
     HostName iris.bebyte.it
     Port 10122
     User daniele
+Host Censura-01
+    HostName 217.61.242.68
+    User daniele
 Host Centrali-01
     HostName centrali-01.host.xelerity.it
     User root
@@ -57,9 +60,4 @@ Host VoIPMonitor-01
     HostName 217.61.242.28
     Port 10322
     User daniele
-Host PiracyShield
-    HostName ps.bebyte.it
-    User daniele
 # --- END SSH-MANAGER MANAGED BLOCK ---
-
-
