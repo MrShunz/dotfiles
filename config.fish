@@ -17,6 +17,9 @@ if status is-interactive
     end
 end
 
+# Bind Ctrl+E as edit command
+bind \ce 'edit_command_buffer'
+
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
