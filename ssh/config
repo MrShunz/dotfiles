@@ -4,7 +4,8 @@ Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
-  IdentityFile ~/.ssh/id_rsa
+  ServerAliveInterval 60
+  ServerAliveCountMax 120
 
 # --- BEGIN SSH-MANAGER MANAGED BLOCK ---
 # Do not edit this block manually.
