@@ -60,4 +60,12 @@ hosts:
     hostname: 217.61.242.68
     port: 22
     user: daniele
+  PiracyShield:
+    hostname: ps.bebyte.it
+    port: 22
+    user: daniele
+  XWAN-01:
+    hostname: xwan-01.it.pda.vsx.as214443.net
+    port: 22
+    user: root
 keys: {}

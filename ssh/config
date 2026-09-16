@@ -48,6 +48,9 @@ Host Netflow-01
 Host NextCloud
     HostName nextcloud.bebyte.it
     User daniele
+Host PiracyShield
+    HostName ps.bebyte.it
+    User daniele
 Host SDWAN-01
     HostName sdwan-01.e-3-0.it.pda.vsx.as214443.net
     User root
@@ -61,4 +64,7 @@ Host VoIPMonitor-01
     HostName 217.61.242.28
     Port 10322
     User daniele
+Host XWAN-01
+    HostName xwan-01.it.pda.vsx.as214443.net
+    User root
 # --- END SSH-MANAGER MANAGED BLOCK ---
