@@ -1,0 +1,63 @@
+version: 1
+hosts:
+  Containers-01:
+    hostname: 217.61.242.24
+    port: 10322
+    user: daniele
+  ACS-01:
+    hostname: bb-acs-01.bebyte.it
+    port: 22
+    user: root
+  Centrali-01:
+    hostname: centrali-01.host.xelerity.it
+    port: 22
+    user: root
+  Services-01:
+    hostname: services-01.it.pda.vsx.as214443.net
+    port: 22
+    user: root
+  Netflow-01:
+    hostname: 217.61.242.24
+    port: 10822
+    user: daniele
+  VoIPMonitor-01:
+    hostname: 217.61.242.28
+    port: 10322
+    user: daniele
+  Switch-01:
+    hostname: switch.bebyte.it
+    port: 22
+    user: root
+  DNS-02:
+    hostname: bb-recursive-dns01.bebyte.it
+    port: 22
+    user: root
+  DNS-01:
+    hostname: dns-recursive-01.xelerity.it
+    port: 10022
+    user: daniele
+  CDR-Mediator:
+    hostname: iris.bebyte.it
+    port: 10122
+    user: daniele
+  IRIS:
+    hostname: iris.bebyte.it
+    port: 22
+    user: root
+  NextCloud:
+    hostname: nextcloud.bebyte.it
+    port: 22
+    user: daniele
+  Monitor-01:
+    hostname: bb-mon-01.bebyte.it
+    port: 22
+    user: root
+  SDWAN-01:
+    hostname: sdwan-01.e-3-0.it.pda.vsx.as214443.net
+    port: 22
+    user: root
+  Censura-01:
+    hostname: 217.61.242.68
+    port: 22
+    user: daniele
+keys: {}
