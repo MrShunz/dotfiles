@@ -68,4 +68,8 @@ hosts:
     hostname: xwan-01.it.pda.vsx.as214443.net
     port: 22
     user: root
+  MON-01:
+    hostname: bb-mon-01.bebyte.it
+    port: 22
+    user: root
 keys: {}
