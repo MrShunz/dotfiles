@@ -72,4 +72,8 @@ hosts:
     hostname: bb-mon-01.bebyte.it
     port: 22
     user: root
+  XWAN-MANAGEMENT:
+    hostname: xwan-concentrator.xelerity.it
+    port: 22
+    user: daniele
 keys: {}
