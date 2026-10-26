@@ -50,11 +50,4 @@ function fish_greeting
     echo $banner_cyan"    ───────────────────────────────────────────────────────"$banner_reset
     echo
 
-
-    # RSS Alerter
-    if status is-login
-        if test -x "$HOME/.rss-alerter/.venv/bin/python"
-            $HOME/.rss-alerter/.venv/bin/python $HOME/.rss-alerter/rss_alerter.py
-        end
-    end
 end

@@ -15,6 +15,11 @@ if status is-interactive
     function patch
         command gpatch
     end
+
+    function rss-alerter
+        command $HOME/.rss-alerter/.venv/bin/python $HOME/.rss-alerter/rss_alerter.py
+    end
+
 end
 
 # Added by OrbStack: command-line tools and integration
