@@ -1,3 +1,4 @@
 https://blog.ipspace.net/atom.xml
 https://vstaub.com/rss.xml
 https://routerjockey.com/index.xml
+https://routerjockey.com/looking-glass/feed.xml
